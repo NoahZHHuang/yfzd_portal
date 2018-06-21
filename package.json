@@ -23,6 +23,7 @@
     "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "immutable": "^3.8.2",
     "maptalks": "^0.40.3",
     "mapv": "^2.0.23",

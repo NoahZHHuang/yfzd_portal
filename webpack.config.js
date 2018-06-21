@@ -10,6 +10,7 @@ const HTMLWebpackPlugin = new HtmlWebpackPlugin({
 
 module.exports = {
 	entry: [
+		'babel-polyfill',
 		'./app/index.js'
 	],
 	output: {
