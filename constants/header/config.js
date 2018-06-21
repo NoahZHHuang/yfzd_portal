@@ -9,10 +9,6 @@ const Config = {
             style: ''
         },
         {
-            name: '专业团队',
-            style: ''
-        },
-        {
             name: '诚聘英才',
             style: ''
         },

@@ -5,7 +5,7 @@ import HeaderConfig from '../../constants/header/config';
 const RecruitmentReducer = handleActions(
     {
         CHANGE_MENU: (state, {payload}) => {
-            if(HeaderConfig.menus[3].name == payload.selectedMenu){
+            if(HeaderConfig.menus[2].name == payload.selectedMenu){
                 return state.set('recruitmentStyle','container recruitment');
             }
             return state.set('recruitmentStyle','container recruitment_hide');

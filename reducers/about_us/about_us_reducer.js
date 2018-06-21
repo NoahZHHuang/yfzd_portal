@@ -1,6 +1,7 @@
 import {handleActions} from 'redux-actions';
 import Immutable from 'immutable';
 import HeaderConfig from '../../constants/header/config';
+import AboutUsConfig from '../../constants/about_us/config';
 
 const aboutUsReducer = handleActions(
     {
@@ -12,7 +13,8 @@ const aboutUsReducer = handleActions(
         }
     },
     Immutable.fromJS({
-        aboutUsStyle: 'container about_us_hide'
+        aboutUsStyle: 'container about_us_hide',
+        members: AboutUsConfig.members
 	})
 );
 

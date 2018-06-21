@@ -6,7 +6,7 @@ import {MESSAGE_SUBMIT, MESSAGE_SUBMIT_RESULT_CONFIRM, MESSAGE_RESET, CONTENT_CH
 const ContactReducer = handleActions(
     {
         CHANGE_MENU: (state, {payload}) => {
-            if(HeaderConfig.menus[4].name == payload.selectedMenu){
+            if(HeaderConfig.menus[3].name == payload.selectedMenu){
                 return state.set('contactStyle','container contact');
             }
             return state.set('contactStyle','container contact_hide');
