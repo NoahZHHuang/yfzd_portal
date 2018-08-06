@@ -8,7 +8,7 @@ import {POSTER_NEXT} from '../../actions/home/action_type';
 const homeReducer = handleActions(
     {
         CHANGE_MENU: (state, {payload}) => {
-            if(HeaderConfig.menus[0].name == payload.selectedMenu){
+            if('首页' == payload.selectedMenu){
                 return state.set('homeStyle','container home');
             }
             return state.set('homeStyle','container home_hide');

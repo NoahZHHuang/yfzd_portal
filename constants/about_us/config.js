@@ -4,7 +4,7 @@ const Config = {
             name: '吴成立',
             position: '广东肇达税务师事务所有限公司股东兼云浮分公司总经理',
             introduction: '资深税务实战专家，超20年企业税务风险处理经验，云浮地区企业税务知识体系培训师',
-            photo: './assets/team_member_1.jpg'
+            photo: './assets/team_member_1_1.jpg'
         },
         {
             name: '小张',

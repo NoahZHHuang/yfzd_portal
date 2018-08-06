@@ -6,7 +6,7 @@ import AboutUsConfig from '../../constants/about_us/config';
 const aboutUsReducer = handleActions(
     {
         CHANGE_MENU: (state, {payload}) => {
-            if(HeaderConfig.menus[1].name == payload.selectedMenu){
+            if('关于我们' == payload.selectedMenu){
                 return state.set('aboutUsStyle','container about_us');
             }
             return state.set('aboutUsStyle','container about_us_hide');

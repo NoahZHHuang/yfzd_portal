@@ -14,9 +14,13 @@ const Header = ({
 			<div className="col-7 main-menu">
 				<ul className="nav">
 					{
-                        menus.map((menu, index)=>
+						menus
+						.filter((menu)=>{
+							return menu.get('display') == true
+						})
+						.map((menu, index)=>
                         	(
-                            	<li><a className={menu.get('style')}  onClick={onMenuClick}>{menu.get('name')}</a></li>
+								<li><a className={menu.get('style')}  onClick={onMenuClick}>{menu.get('name')}</a></li>
                     		)
                         )
                     }
