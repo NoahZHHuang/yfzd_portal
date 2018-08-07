@@ -9,19 +9,22 @@ const Home = ({
 	onClickPosterPre,
 	onClickPosterNext
 }) => (
-    <div className={homeStyle}>
-		<div>
-			{
-				posters.map((poster, index)=>
-					{
-						let style ;
-						if (currentIndex == index) {
-							style = 'row advertising';
-						} else {
-							style = 'row advertising advertising_hide';
-						}
-						return(
-							<div className={style}>
+    <div className={homeStyle}>		
+		{
+			posters.map((poster, index)=>
+				{
+					let styleAdvertising, styleArticle ;
+					if (currentIndex == index) {
+						styleAdvertising = 'row advertising';
+						styleArticle = 'row article';
+					} else {
+						styleAdvertising = 'row advertising_hide';
+						styleArticle = 'row article_hide';
+					}
+					return(
+						<div>
+							<div className={styleAdvertising}>
+								<div className="col-2">&nbsp;</div>
 								<div className="col-8 poster">
 									<div className="posterPreDiv">
 										<a className="posterPreBtn" onClick={onClickPosterPre}>&#10094;</a>
@@ -33,7 +36,7 @@ const Home = ({
 										<a className="posterNextBtn" onClick={onClickPosterNext}>&#10095;</a>
 									</div>
 									<div className="slideDotDiv">
-									    {
+										{
 											Object.keys(Array.apply(0, {length:posters.size})).map(
 												(index)=>{
 													if(index==currentIndex){
@@ -45,14 +48,19 @@ const Home = ({
 											)										
 										}
 									</div>
-								</div>                    
-								<div className="col-4 article" dangerouslySetInnerHTML={{__html:poster.get("content")}}></div>                    
+								</div>     
+								<div className="col-2">&nbsp;</div>               
 							</div>
-						)
-					}
-				)
-			}
-		</div>
+							<div className={styleArticle}>
+								<div className="col-2">&nbsp;</div>
+								<div className="col-8" dangerouslySetInnerHTML={{__html:poster.get("content")}}></div>
+								<div className="col-2">&nbsp;</div>
+							</div>
+						</div>
+					)
+				}
+			)
+		}
 		<div className="row client_banner">
 			<div className="col-12">
 				<p>

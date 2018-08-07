@@ -3,28 +3,12 @@
 }
 
 .home {
-    .advertising_hide {
+    .advertising_hide, .article_hide {
         display: none;
     }
     
     .advertising {
         height: 500px;
-        .article {
-            max-height: 100%;
-            overflow: scroll;
-            p.title {
-                font-size: 1.2em;
-                font-weight: bold;
-                padding-bottom: 20px;
-            }
-            p.chapter {
-                font-weight: bold;
-            }
-            p.content {
-                padding-top: 5px;
-                padding-bottom: 20px;
-            }
-        }
         .poster {
             .posterPreDiv, .posterNextDiv {
                 width: 10%;
@@ -79,6 +63,25 @@
                    background-color: #717171;
                 }
             }
+        }
+    }
+
+    .article {
+        height: 500px;
+        width: 100%;
+        min-width: 960px;
+        overflow: scroll;
+        p.title {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+        p.chapter {
+            font-weight: bold;
+        }
+        p.content {
+            padding-top: 5px;
+            padding-bottom: 20px;
         }
     }
     
