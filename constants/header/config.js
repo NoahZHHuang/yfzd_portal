@@ -16,7 +16,7 @@ const Config = {
             display: false
         },
         {
-            name: '税务培训课程',
+            name: '税务知识库',
             style: '',
             display: true
         },
