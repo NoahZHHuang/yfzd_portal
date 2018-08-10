@@ -7,6 +7,7 @@ import TaxKnowledgeLibararyContainer from '../containers/tax_knowledge_libarary/
 import ContactContainer from '../containers/contact/contact_container';
 import Footer from '../components/footer/footer'
 import PopUpContainer from '../containers/pop_up/pop_up_container';
+import TimerContainer from '../containers/timer/timer_container';
 
 const Main = () =>(
     <div style={{'minWidth': '1480px'}} >
@@ -18,6 +19,7 @@ const Main = () =>(
        <ContactContainer/>
        <Footer/>
        <PopUpContainer/>
+       <TimerContainer/>
     </div>
 );
 

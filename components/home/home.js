@@ -7,9 +7,11 @@ const Home = ({
 	posters,
 	currentIndex,
 	onClickPosterPre,
-	onClickPosterNext
+	onClickPosterNext,
+	stopTimer,
+	startTimer
 }) => (
-    <div className={homeStyle}>		
+    <div className={homeStyle}  onMouseEnter={stopTimer} onMouseLeave={startTimer}>		
 		{
 			posters.map((poster, index)=>
 				{
