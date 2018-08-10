@@ -4,13 +4,14 @@ import {taxKnowledgeLibararyLess} from '../../less/tax_knowledge_libarary/tax_kn
 
 const TaxKnowledgeLibarary = ({
 	menus,
-	taxKnowledgeLibararyStyle
+	taxKnowledgeLibararyStyle,
+	onPop
 }) => (
     <div className={taxKnowledgeLibararyStyle}>
         <div className="row">
 			<div className="col-2">&nbsp;</div>
 			<div className="col-8">
-            <ul>
+            	<ul>
 					{
 						menus.map((menu)=>
                         	(
@@ -19,7 +20,7 @@ const TaxKnowledgeLibarary = ({
 									{
 										menu.get("items").map((item)=>
                         					(
-												<li className="item"><a href={item.get("url")}>{item.get("itemName")}</a></li>
+												<li className="item"><button title={item.get("title")} content={item.get("content")} onClick={onPop}>{item.get("itemName")}</button></li>
                     						)
                         				)
 									}
@@ -29,8 +30,9 @@ const TaxKnowledgeLibarary = ({
                         )
                     }
 				</ul>
+				<div className="for_padding">&nbsp;</div>	
 			</div>
-			<div className="col-2">&nbsp;</div>			
+			<div className="col-2">&nbsp;</div>		
 		</div>
     </div>
 );

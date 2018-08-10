@@ -6,6 +6,7 @@ import RecruitmentContainer from '../containers/recruitment/recruitment_containe
 import TaxKnowledgeLibararyContainer from '../containers/tax_knowledge_libarary/tax_knowledge_libarary_container';
 import ContactContainer from '../containers/contact/contact_container';
 import Footer from '../components/footer/footer'
+import PopUpContainer from '../containers/pop_up/pop_up_container';
 
 const Main = () =>(
     <div style={{'minWidth': '1480px'}} >
@@ -16,6 +17,7 @@ const Main = () =>(
        <TaxKnowledgeLibararyContainer/>
        <ContactContainer/>
        <Footer/>
+       <PopUpContainer/>
     </div>
 );
 

@@ -5,6 +5,7 @@ import aboutUsReducer from '../reducers/about_us/about_us_reducer';
 import recruitmentReducer from '../reducers/recruitment/recruitment_reducer';
 import contactReducer from '../reducers/contact/contact_reducer';
 import taxKnowledgeLibararyReducer from '../reducers/tax_knowledge_libarary/tax_knowledge_libarary_reducer';
+import popUpReducer from '../reducers/pop_up/pop_up_reducer';
 
 const rootReducer = combineReducers({
     headerReducer,
@@ -12,7 +13,8 @@ const rootReducer = combineReducers({
     aboutUsReducer,
     recruitmentReducer,
     contactReducer,
-    taxKnowledgeLibararyReducer
+    taxKnowledgeLibararyReducer,
+    popUpReducer
 });
 
 export default rootReducer;
