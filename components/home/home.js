@@ -11,6 +11,7 @@ import CLIENT_7 from '../../assets/client_7.jpg';
 import CLIENT_8 from '../../assets/client_8.jpg';
 import CLIENT_9 from '../../assets/client_9.jpg';
 import CLIENT_10 from '../../assets/client_10.jpg';
+import BANNER from '../../assets/banner.jpg';
 
 
 const Home = ({
@@ -77,7 +78,7 @@ const Home = ({
 		<div className="row client_banner">
 			<div className="col-12">
 				<p>
-					<img src="./assets/banner.jpg"/>
+					<img src={BANNER}/>
 				</p>
 			</div>                                       
 		</div>

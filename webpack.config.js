@@ -1,10 +1,15 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 const HTMLWebpackPlugin = new HtmlWebpackPlugin({
 	template: path.resolve(__dirname, './app/index.html'),
 	filename: 'index.html',
 	inject: 'body'
+});
+
+const UGLIFYJsPlugin = new UglifyJsPlugin({
+	test: /\.js($|\?)/i
 });
 
 
@@ -43,6 +48,7 @@ module.exports = {
 		port: 8008
 	},
 	plugins: [
-		HTMLWebpackPlugin
+		HTMLWebpackPlugin,
+		UGLIFYJsPlugin
 	]
 };
