@@ -13,7 +13,7 @@ class Timer extends React.Component {
 		if(!!this.interval){
 			clearInterval(this.interval);
 		}
-		this.interval = setInterval(this.tick, 8000);
+		this.interval = setInterval(this.tick, 6000);
 	}
 
 	componentWillUnmount(){
@@ -27,7 +27,7 @@ class Timer extends React.Component {
 			if(!!this.interval){
 				clearInterval(this.interval);
 			}
-			this.interval = setInterval(newProps.onTick, 8000);
+			this.interval = setInterval(newProps.onTick, 6000);
 		}else{
 			if(!!this.interval){
 				clearInterval(this.interval);
