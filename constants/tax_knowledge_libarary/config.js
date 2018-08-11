@@ -6,8 +6,8 @@ const Config = {
             items: [
                 {
                     itemName:'房地产税务规划',
-                    title:'房地产税务规划',
-                    content:'abcdefg'
+                    title:'房地产开发企业各阶段税务筹划',
+                    content:'content_fang_di_chan_shui_wu_gui_hua'
                 },
                 {
                     itemName:'高端技术企业税务规划',
@@ -16,13 +16,13 @@ const Config = {
                 },
                 {
                     itemName:'上市公司及企业集团并购重组税务规划',
-                    title:'上市公司及企业集团并购重组税务规划',
-                    content:'abcdefg'
+                    title:'并购重组实务中的8个税务筹划点',
+                    content:'content_bing_gou_chong_zu_shui_wu_gui_hua'
                 },
                 {
                     itemName:'国际税务规划',
-                    title:'国际税务规划',
-                    content:'abcdefg'
+                    title:'国际税收筹划要点分析',
+                    content:'content_guo_ji_shui_wu_gui_hua'
                 }
             ]
         },
@@ -32,18 +32,18 @@ const Config = {
             items: [
                 {
                     itemName:'释放收入时全面控制税务风险',
-                    title:'释放收入时全面控制税务风险',
-                    content:'abcdefg'
+                    title:'汇算清缴中“收入”计算6个典型税务风险',
+                    content:'content_shi_fang_shou_ru_shi_quan_mian_kong_zhi_shui_wu_feng_xian'
                 },
                 {
                     itemName:'量身定做税务规划方案，获取尽可能多的税收优惠以降低整体税负',
                     title:'量身定做税务规划方案，获取尽可能多的税收优惠以降低整体税负',
-                    content:'abcdefg'
+                    content:'content_liang_shen_ding_zuo_shui_wu_fang_an'
                 },
                 {
                     itemName:'指导企业整理账务已达到上市的规范要求，让券商、会计师、律师等中介轻松进入企业',
-                    title:'指导企业整理账务已达到上市的规范要求，让券商、会计师、律师等中介轻松进入企业',
-                    content:'abcdefg'
+                    title:'指导企业整理账务已达到上市的规范要求',
+                    content:'content_zhi_dao_qi_ye_shang_shi'
                 }
             ]
         },

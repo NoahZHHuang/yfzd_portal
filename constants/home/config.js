@@ -29,6 +29,18 @@ const Config = {
         {
             posterPath: './assets/poster_12.jpg',
             content: Content.content_9
+        },
+        {
+            posterPath: './assets/poster_13.jpg',
+            content: Content.content_10
+        },
+        {
+            posterPath: './assets/poster_14.jpg',
+            content: Content.content_10
+        },
+        {
+            posterPath: './assets/poster_15.jpg',
+            content: Content.content_10
         }
     ],
     currentIndex: 0

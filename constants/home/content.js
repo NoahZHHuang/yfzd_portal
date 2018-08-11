@@ -198,9 +198,10 @@ const Content = {
     <p class="content">（8）工商信用网进经营异常名录，所有对外申办业务全部限制，如：银行开户、进驻商城等等。</p>\
     <p class="sub_chapter">总而言之，让公司自生自灭，公司就会有信用污点，后果好严重啊！</p>\
     <p class="sub_chapter">最后特别提醒：最后的银行户一定要注销掉，不然即使公司已经注销了，后期银行盘点起来也可能把你纳入异常状态...</p>\
-    '
+    ',
 
 
+    content_10: '<p class="title">肇达人的风采</p>'
 };
 
 export default Content;
