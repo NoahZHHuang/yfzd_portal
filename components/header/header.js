@@ -1,6 +1,8 @@
 import React from 'react';
 import {common} from '../../less/common.less';
 import {HeaderLess} from '../../less/header/header.less';
+import LOGO from '../../assets/logo.jpg';
+
 
 const Header = ({
 	menus,
@@ -9,7 +11,7 @@ const Header = ({
     <div className="container header">
 		<div className="row">
 			<div className="col-5 logo">
-				<img src='./assets/logo.jpg' />
+				<img src={LOGO} />
 			</div>                    
 			<div className="col-7 main-menu">
 				<ul className="nav">

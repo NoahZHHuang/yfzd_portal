@@ -1,6 +1,7 @@
 import React from 'react';
 import {common} from '../../less/common.less';
 import {ContactLess} from '../../less/contact/contact.less';
+import MAP_ADDRESS from '../../assets/map_address_2.jpg';
 
 const Contact = ({
     contactStyle,
@@ -26,7 +27,7 @@ const Contact = ({
 					<p>咨询热线：0766-8815799，8815909&nbsp;/&nbsp;18927184979</p>
 					<p>电子邮箱：yunfu_zhaoda@163.com</p>
 				</div>
-				<img id="mapImg" src="./assets/map_address_2.jpg"/>
+				<img id="mapImg" src={MAP_ADDRESS}/>
 			</div>                    
 			<div className="col-2">&nbsp;</div>   
 		</div>

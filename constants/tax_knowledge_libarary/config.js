@@ -41,8 +41,8 @@ const Config = {
                     content:'content_liang_shen_ding_zuo_shui_wu_fang_an'
                 },
                 {
-                    itemName:'指导企业整理账务已达到上市的规范要求，让券商、会计师、律师等中介轻松进入企业',
-                    title:'指导企业整理账务已达到上市的规范要求',
+                    itemName:'指导企业整理账务以达到上市的规范要求，让券商、会计师、律师等中介轻松进入企业',
+                    title:'指导企业整理账务以达到上市的规范要求',
                     content:'content_zhi_dao_qi_ye_shang_shi'
                 }
             ]
@@ -52,29 +52,24 @@ const Config = {
             cssTag: 'shuiwuguwen',
             items: [
                 {
-                    itemName:'税法咨询',
-                    title:'税法咨询',
-                    content:'abcdefg'
-                },
-                {
-                    itemName:'日常税务咨询',
-                    title:'日常税务咨询',
-                    content:'abcdefg'
+                    itemName:'税法税务咨询',
+                    title:'税法税务咨询',
+                    content:'content_shui_fa_shui_wu_zi_xun'
                 },
                 {
                     itemName:'税务健康检查',
                     title:'税务健康检查',
-                    content:'abcdefg'
+                    content:'content_shui_wu_jian_kang_jian_cha'
                 },
                 {
                     itemName:'合同涉税审查',
-                    title:'合同涉税审查',
-                    content:'abcdefg'
+                    title:'8大关键，助你出色完成合同涉税审查',
+                    content:'content_he_tong_she_shui_shen_cha'
                 },
                 {
                     itemName:'税务稽查应对',
                     title:'税务稽查应对',
-                    content:'hehehehe'
+                    content:'content_shui_wu_ji_cha_ying_dui'
                 }
             ]
         }
